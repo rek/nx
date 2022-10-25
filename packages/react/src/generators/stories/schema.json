@@ -8,10 +8,7 @@
   "properties": {
     "project": {
       "type": "string",
-      "aliases": [
-        "name",
-        "projectName"
-      ],
+      "aliases": ["name", "projectName"],
       "description": "Project for which to generate stories.",
       "$default": {
         "$source": "projectName",
@@ -49,8 +46,6 @@
       ]
     }
   },
-  "required": [
-    "project"
-  ],
+  "required": ["project"],
   "examplesFile": "../../../docs/stories-examples.md"
 }
